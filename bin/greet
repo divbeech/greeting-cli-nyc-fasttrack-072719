@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
+"Hi! I'm HAL, what's your name?"
 input = gets.chomp
 
 greeting(input)
